@@ -1,8 +1,12 @@
 package expendedor2d;
 
+import java.awt.*;
+
 public class Comprador {
     private int vuelto;
     private String tomar;
+    private int x,  y, altura, ancho;
+    private Color color;
     
     public Comprador(Moneda moneda, int BebidaElegida, Expendedor exp) {
         Bebida bebida = exp.comprarBebida(moneda, BebidaElegida);
