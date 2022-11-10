@@ -2,7 +2,7 @@ package expendedor2d;
 
 import javax.swing.*;
 import java.awt.*;
-
+import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 public class Ventana extends JFrame {
     public Ventana(){
