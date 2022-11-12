@@ -37,7 +37,7 @@ class Moneda100 extends Moneda{
     @Override
     public void paint(Graphics g, int x, int y){
         this.x=x; this.y=y;
-        g.setColor(Color.ORANGE);
+        g.setColor(Color.YELLOW);
         g.fillOval(this.x,this.y,30,30);
         g.setColor(Color.WHITE);
         g.drawString(""+numSerie, this.x+30/7, this.y+15);
